@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct AppetizersFinalApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppetizerTabView()
         }
     }
+    
 }
